@@ -50,11 +50,7 @@ const MainAbout = () => {
                                             <hr />
                                             <p> Des intervenants qualifiés et expérimentés</p>
                                             <hr />
-                                            <p> Un support technique réactif</p>
-                                            <hr />
                                             <p> La gestion de l’ensemble de vos systèmes d’informations</p>
-                                            <hr />
-                                            <p> Une haute disponibilité</p>
                                             <hr />
                                             <p> Un conseil personnalisé couvrant l’ensemble de vos projets informatiques</p>
                                         </div>
@@ -65,6 +61,10 @@ const MainAbout = () => {
                                             <p> Passion & Esprit d’Équipe</p>
                                             <hr />
                                             <p> État d’Esprit Agile</p>
+                                            <hr />
+                                            <p> Un support technique réactif</p>
+                                            <hr />
+                                            <p> Une haute disponibilité</p>
                                             <hr />
                                         </div>
                                     </li>

@@ -34,8 +34,8 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-4 footer-links">
                             <h4>Liens utils</h4>
                             <ul>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#"> Conditions d’utilisation</a></li>
-                                <li><i className="bx bx-chevron-right"></i> <a href="#"> Politique de confidentialité</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a target={"_blank"} href="https://www.termsofservicegenerator.net/live.php?token=EyBHJSLw3wZMnBeIKzg6Jm9j2SC6x64W"> Conditions d’utilisation</a></li>
+                                <li><i className="bx bx-chevron-right"></i> <a target={"_blank"} href="https://www.termsfeed.com/live/eaf44bb1-ac16-4d5c-bcfc-6f2916a1e454"> Politique de confidentialité</a></li>
                             </ul>
                         </div>
 
