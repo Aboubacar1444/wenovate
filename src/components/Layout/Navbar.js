@@ -32,13 +32,13 @@ const Navbar = (props) => {
     const services = getServices();
     return (
         <>
-            <header id="header" className="fixed-top font-weight-bold" >
+            <header id="header" className="fixed-top font-weight-bold" role={"header"}>
                 <div className="container d-flex align-items-center">
                     <h1 className="logo me-auto"><Link to="/">W E N O V A T E </Link></h1>
                     {/* Uncomment below if you prefer to use an image logo  */}
                     {/* <a href="index.html" className="logo me-auto"><img src="assets/img/hero-img.png" alt="" className="img-fluid" /></a> */}
 
-                    <nav id="navbar" className="navbar">
+                    <nav id="navbar" className="navbar" role={"navigation"}>
                         <ul>
                             <li><NavLink to="/" className={({ isActive }) => isActive ? "nav-link scrollto active" : "nav-link scrollto"} >Accueil</NavLink></li>
                             <li><NavLink to="/about-us" className={({ isActive }) => isActive ? "nav-link scrollto active" : "nav-link scrollto"} >A propos</NavLink></li>
